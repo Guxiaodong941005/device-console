@@ -1,0 +1,11 @@
+build/
+cmake-build-*/
+*.user
+*.autosave
+.DS_Store
+.idea/
+.vscode/
+*.o
+moc_*
+ui_*
+qrc_*
