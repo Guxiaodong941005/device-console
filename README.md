@@ -1,5 +1,8 @@
 # Device Console · 设备调试台
 
+
+**Repo:** https://github.com/Guxiaodong941005/device-console
+
 C++17 + Qt 6 Widgets portfolio app for **industrial HMI / Qt 上位机** style demos.
 
 A small desktop console that connects to an MQTT-like session, drives a **device connection state machine**, shows a message log, and can publish a JSON command. **Mock mode** (default) works offline via `QTimer` heartbeats and a simulated link drop — no broker required.
@@ -23,7 +26,8 @@ A small desktop console that connects to an MQTT-like session, drives a **device
 # Debian/Ubuntu example
 sudo apt install build-essential cmake qt6-base-dev
 
-cd /workspace/cpp-portfolio/device-console   # or your clone path
+git clone https://github.com/Guxiaodong941005/device-console.git
+cd device-console
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ```
